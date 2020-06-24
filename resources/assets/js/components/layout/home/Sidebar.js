@@ -70,14 +70,14 @@ export default class Sidebar extends Component {
                       <ul className="anchor_nav">
 
                        <li><Link to={`/`} >Home</Link></li>
-                        <li><a href="/#about">About</a></li>
-                        <li><a href="/#portofolio">Project</a></li>
-                        <li><a href="/#contact">Contact</a></li>
+                        <li><Link to={`/#about`} >About</Link></li>
+                        <li><Link to={`/#project`} >Project</Link></li>
+                        <li><Link to={`/#contact`} >Contact</Link></li>
                         {this.renderMenuAdmin()}
 
                       </ul>
                     </div>
-                    <a className="arlo_tm_resize" href="#"><i className="fa fa-angle-double-left"></i></a>
+                    {/* <a className="arlo_tm_resize" href="#"><i className="fa fa-angle-double-left"></i></a> */}
                   </div>
                 </div>
               </div>

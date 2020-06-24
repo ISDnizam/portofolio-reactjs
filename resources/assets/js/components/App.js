@@ -277,15 +277,16 @@ class App extends Component {
                                     <span>Check out our latest creative works</span>
                                 </div>
                                 <div className="arlo_tm_portfolio_titles"></div>
-                                <ul className="arlo_tm_portfolio_filter">
-                                    <li><a href="#" className="current" data-filter="*">All</a></li>
-                                    <li><a href="#" data-filter=".design">Design</a></li>
-                                    <li><a href="#" data-filter=".development">Development</a></li>
-                                </ul>
+                                <ul class="arlo_tm_portfolio_filter">
+									<li><a href="#" class="current" data-filter="*">All</a></li>
+									<li><a href="#" data-filter=".WebDevelopment">Web Development</a></li>
+									<li><a href="#" data-filter=".MobileApp">Mobile App</a></li>
+									<li><a href="#" data-filter=".Design">Design</a></li>
+								</ul>
                                 <ul className="arlo_tm_portfolio_list gallery_zoom">
                                     {this.state.tasks.map(task => (
-                                    <li  key={task.id_project} className={task.category}>
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title={task.title} data-category={task.category}>
+                                    <li  key={task.id_project} className={task.category.replace(' ','',task.category)}>
+                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title={task.title} data-category={task.category.replace(' ','',task.category)}>
                                             <Link to={`/project/detail/${task.id_project}`}>
                                                 <img src={task.image} alt="" />
                                                 <div className="arlo_tm_portfolio_image_main" data-img-url={'task.image'}></div>

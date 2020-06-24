@@ -76225,13 +76225,13 @@ var App = function (_Component) {
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "arlo_tm_portfolio_titles" }),
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                     "ul",
-                                    { className: "arlo_tm_portfolio_filter" },
+                                    { "class": "arlo_tm_portfolio_filter" },
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         "li",
                                         null,
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             "a",
-                                            { href: "#", className: "current", "data-filter": "*" },
+                                            { href: "#", "class": "current", "data-filter": "*" },
                                             "All"
                                         )
                                     ),
@@ -76240,8 +76240,8 @@ var App = function (_Component) {
                                         null,
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             "a",
-                                            { href: "#", "data-filter": ".design" },
-                                            "Design"
+                                            { href: "#", "data-filter": ".WebDevelopment" },
+                                            "Web Development"
                                         )
                                     ),
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -76249,8 +76249,17 @@ var App = function (_Component) {
                                         null,
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             "a",
-                                            { href: "#", "data-filter": ".development" },
-                                            "Development"
+                                            { href: "#", "data-filter": ".MobileApp" },
+                                            "Mobile App"
+                                        )
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        "li",
+                                        null,
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            "a",
+                                            { href: "#", "data-filter": ".Design" },
+                                            "Design"
                                         )
                                     )
                                 ),
@@ -76260,10 +76269,10 @@ var App = function (_Component) {
                                     this.state.tasks.map(function (task) {
                                         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             "li",
-                                            { key: task.id_project, className: task.category },
+                                            { key: task.id_project, className: task.category.replace(' ', '', task.category) },
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                 "div",
-                                                { className: "entry arlo_tm_portfolio_animation_wrap", "data-title": task.title, "data-category": task.category },
+                                                { className: "entry arlo_tm_portfolio_animation_wrap", "data-title": task.title, "data-category": task.category.replace(' ', '', task.category) },
                                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                     __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
                                                     { to: "/project/detail/" + task.id_project },
@@ -78969,8 +78978,8 @@ var Sidebar = function (_Component) {
                     'li',
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/#about' },
+                      __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
+                      { to: '/#about' },
                       'About'
                     )
                   ),
@@ -78978,8 +78987,8 @@ var Sidebar = function (_Component) {
                     'li',
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/#portofolio' },
+                      __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
+                      { to: '/#project' },
                       'Project'
                     )
                   ),
@@ -78987,18 +78996,13 @@ var Sidebar = function (_Component) {
                     'li',
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/#contact' },
+                      __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
+                      { to: '/#contact' },
                       'Contact'
                     )
                   ),
                   this.renderMenuAdmin()
                 )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { className: 'arlo_tm_resize', href: '#' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-angle-double-left' })
               )
             )
           )
@@ -79188,7 +79192,12 @@ var Footer = function (_Component) {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "p",
                         null,
-                        " Copyright "
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "center",
+                            null,
+                            " nizam.id \xA9 2020, All rights reserved"
+                        ),
+                        " "
                     )
                 )
             );

@@ -6,7 +6,7 @@ export default class Footer extends Component {
             
             <div className="arlo_tm_footer_wrap">
               <div className="container">
-                <p> Copyright </p>
+                <p><center> nizam.id © 2020, All rights reserved</center> </p>
               </div>
             </div>
         )
