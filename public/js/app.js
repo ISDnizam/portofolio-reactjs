@@ -76276,7 +76276,7 @@ var App = function (_Component) {
                                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                                     __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
                                                     { to: "/project/detail/" + task.id_project },
-                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: task.image, alt: "" }),
+                                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "image_project", src: task.image, alt: "" }),
                                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "arlo_tm_portfolio_image_main", "data-img-url": 'task.image' })
                                                 )
                                             )

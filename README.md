@@ -1,6 +1,5 @@
-## Laravel React TaskManager App
 
-Integrate React.js with Laravel to perform CRUD operations
+Integrate React.js with Laravel
 
 ## App Screenshots
 

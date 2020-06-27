@@ -49,6 +49,24 @@ img.svg{
 	width: 15px;
 	height: 15px;
 }
+.contact{
+	margin-top: 100px;
+}
+.logo_sm{
+	height: 20px;
+}
+.logo_md{
+	height: 120px;
+}
+.text_white{
+	color: #fff !important;
+}
+ .color_white{
+	color: #fff !important;
+}
+.image_project{
+	height:350px;
+}
 .arlo_tm_wrapper_all,
 .arlo_tm_section,
 .arlo_tm_content{

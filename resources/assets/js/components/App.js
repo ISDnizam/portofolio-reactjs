@@ -288,7 +288,7 @@ class App extends Component {
                                     <li  key={task.id_project} className={task.category.replace(' ','',task.category)}>
                                         <div className="entry arlo_tm_portfolio_animation_wrap" data-title={task.title} data-category={task.category.replace(' ','',task.category)}>
                                             <Link to={`/project/detail/${task.id_project}`}>
-                                                <img src={task.image} alt="" />
+                                                <img className="image_project" src={task.image} alt="" />
                                                 <div className="arlo_tm_portfolio_image_main" data-img-url={'task.image'}></div>
                                             </Link>
                                         </div>
