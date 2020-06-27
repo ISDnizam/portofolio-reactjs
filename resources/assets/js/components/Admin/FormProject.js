@@ -158,8 +158,9 @@ export default class FormProject extends Component {
                           <label className="col-sm-3 col-form-label">Category</label>
                           <div className="col-sm-9">
                             <select name="category" className="form-control" id="form_category"  onChange={this.handleChange} >
-                              <option value="development">Development</option>
-                              <option value="design">Design</option>
+                              <option value="Web Development">Web Development</option>
+                              <option value="Mobile App">Mobile App</option>
+                              <option value="Design">Design</option>
                             </select>
                           </div>
                         </div>
