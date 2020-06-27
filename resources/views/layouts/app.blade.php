@@ -20,7 +20,23 @@
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-
+<style type="text/css">
+  .contact{
+	margin-top: 100px;
+}
+.logo_sm{
+	height: 20px;
+}
+.logo_md{
+	height: 120px;
+}
+.text_white{
+	color: #fff !important;
+}
+ .color_white{
+	color: #fff !important;
+}
+</style>
 </head>
 <body>
       
