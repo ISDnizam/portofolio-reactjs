@@ -75913,14 +75913,8 @@ var App = function (_Component) {
                                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                             "div",
                                             { className: "image layer", "data-depth": "0.1" },
-                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://frenify.com/envato/marketify/html/arlo/1/img/about/550x640.jpg", alt: "" }),
+                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "/assets/images/foto1.jpg", alt: "" }),
                                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "inner", "data-img-url": "/assets/images/foto1.jpg" })
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            "div",
-                                            { className: "border layer", "data-depth": "0.2" },
-                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "http://frenify.com/envato/marketify/html/arlo/1/img/about/550x640.jpg", alt: "" }),
-                                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", { className: "inner" })
                                         )
                                     )
                                 ),

@@ -166,14 +166,10 @@ class App extends Component {
                     <div className="leftbox">
                         <div className="about_image_wrap parallax" data-relative-input="true">
                             <div className="image layer" data-depth="0.1">
-                                <img src={"http://frenify.com/envato/marketify/html/arlo/1/img/about/550x640.jpg"} alt="" />
+                                <img src={"/assets/images/foto1.jpg"} alt="" />
                                 <div className="inner" data-img-url={"/assets/images/foto1.jpg"}></div>
 
 
-                            </div>
-                            <div className="border layer" data-depth="0.2">
-                                <img src={"http://frenify.com/envato/marketify/html/arlo/1/img/about/550x640.jpg"} alt="" />
-                                <div className="inner"></div>
                             </div>
                         </div>
                     </div>
